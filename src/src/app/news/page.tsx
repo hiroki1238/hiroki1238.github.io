@@ -13,7 +13,7 @@ export default function About() {
         </div>
         <img src="./image/news001.jpg" className="border border-gray-300 rounded-xl w-2/5"/>
       </div>
-      <div className="mb-20"></div>
+      <div className="mb-36"></div>
 
       <div className="mb-36">.....</div>
     </div>

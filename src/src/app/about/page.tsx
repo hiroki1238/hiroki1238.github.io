@@ -8,7 +8,7 @@ export default function About() {
       <p className="text-2xl mt-10 mr-10 text-gray-600">
         「株式会社たば」は2023年2月にHiroki1238によって設立されたポートフォリオサイトです。株式会社たばは「毎日楽しい」を目標に、こだわりを持って開発したサービスを提供しています。複数あるサービスを通じて、誰もが自由に楽しく生きていける社会を目指します。
       </p>
-      <div className="mb-20"></div>
+      <div className="mb-36"></div>
 
       <p className="text-6xl text-gray-600 font-black font-zenmaru">COMPANY</p>
       <p className="text-xl mt-2 text-gray-400">会社概要</p>
@@ -33,7 +33,7 @@ export default function About() {
         <div className="border-b-2 my-3">EC事業、DX事業など</div>
       </div>
 
-      <div className="mb-20"></div>
+      <div className="mb-36"></div>
 
       <div>
         <p className="text-6xl text-gray-600 font-black font-zenmaru">

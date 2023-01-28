@@ -45,7 +45,7 @@ export default function RootLayout({
                 </Link>
 
                 <Link
-                  href="/"
+                  href="/news"
                   className="mr-6 no-underline text-2xl text-gray-500 hover:text-gray600"
                 >
                   ニュース
