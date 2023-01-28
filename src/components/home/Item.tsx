@@ -2,8 +2,18 @@
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-export default function Item(props: any) {
-  const { title, message, button } = props;
+interface ItemProps {
+  title: string;
+  message: string;
+  button: string;
+  path: string;
+  img: string;
+}
+
+
+
+const Item: React.FC<ItemProps> = (props) => {
+  const { title, message, button, path, img } = props;
   const router = useRouter();
 
   return (
@@ -15,26 +25,15 @@ export default function Item(props: any) {
         <button
           className="mt-10 ml-10 py-4 px-6 text-xl bg-transparent border-2 border-slate-700 hover:border-transparent rounded-xl hover:bg-slate-700 text-slate-700 hover:text-white"
           type="button" onClick={() => router.push("/about")}>{button}</button>
-        {/* 方法1 */}
-
-        <button className="mt-10 ml-10 py-4 px-6 text-xl bg-transparent border-2 border-slate-700 hover:border-transparent rounded-xl hover:bg-slate-700 text-slate-700 hover:text-white">
-          <Link href="/about">会社概要</Link></button>
-        {/* 方法2 */}
-
-        <Link
-          href="/about"
-          className="mt-10 ml-10 text-xl bg-transparent border-2 border-slate-700 hover:border-transparent rounded-xl hover:bg-slate-700 text-slate-700 hover:text-white"
-        >
-          会社概要
-        </Link>
-        {/* 方法3 */}
       </div>
       <div className="w-3/7">
         <img
-          src="./image/city.jpg"
+          src={img}
           className="border border-gray-400 rounded-xl"
         />
       </div>
     </div>
   );
 }
+
+export default Item;
