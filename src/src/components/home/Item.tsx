@@ -29,7 +29,7 @@ const Item: React.FC<ItemProps> = (props) => {
       <div className="w-3/7">
         <img
           src={img}
-          className="border border-gray-400 rounded-xl"
+          className="border border-gray-300 rounded-xl"
         />
       </div>
     </div>
