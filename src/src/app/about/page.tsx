@@ -41,19 +41,15 @@ export default function About() {
         </p>
         <p className="text-xl mt-2 text-gray-400">沿革</p>
         <div className="text-2xl mt-10 text-gray-600 grid grid-cols-3 w-full">
-          <div className="border-b-2 my-3 text-center">2022年</div>
-          <div className="border-b-2 my-3 text-center">5月</div>
-          <div className="border-b-2 my-3">Web開発の勉強を始める</div>
+          <div className="border-b-2 my-3 text-center">2023年</div>
+          <div className="border-b-2 my-3 text-center">9月</div>
+          <div className="border-b-2 my-3">
+            レバテックカレッジ 入社
+          </div>
 
           <div className="border-b-2 my-3 text-center">2022年</div>
           <div className="border-b-2 my-3 text-center">9月</div>
           <div className="border-b-2 my-3">就職活動開始</div>
-
-          <div className="border-b-2 my-3 text-center">2023年</div>
-          <div className="border-b-2 my-3 text-center">9月</div>
-          <div className="border-b-2 my-3">
-            レバテックカレッジ メンター業務 開始
-          </div>
 
           <div className="border-b-2 my-3 text-center">2022年</div>
           <div className="border-b-2 my-3 text-center">11月</div>

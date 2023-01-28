@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Item from "components/home/Item";
+import Item from "@/components/home/Item";
 
 export default function Home() {
   return (
