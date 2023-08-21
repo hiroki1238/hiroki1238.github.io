@@ -12,7 +12,7 @@ module.exports = {
           },
           colors: {
               // 'カラー名': 'カラーコード'
-              'shadow-gray1':'#bfbfbf', 'gray-50': '#f9fbfc', 'gray-150': '#f4f5f7', 'gray-170': '#eff0f2', 'gray-250': '#eaebef',
+              'shadow-gray1':'#bfbfbf', 'gray-50': '#f9fbfc', 'gray-150': '#f4f5f7', 'gray-170': '#eff0f2', 'gray-250': '#eaebef', 'logo-blue': '#0b81a8', 'logo-blue-dark': '#096f91'
             },
             spacing: {
               '105': '30rem',

@@ -70,14 +70,14 @@ export default function RootLayout({
           {children}
         </section>
 
-        <footer className="bg-gray-200 font-kosugimaru">
+        <footer className="bg-logo-blue-dark font-kosugimaru">
           {/* フォント指定 */}
           <div className="flex">
             <div>
-              <p className="pt-11 pr-7">
+              <p className="pt-11 pr-7 ml-10">
                 <Link
                   href="/description"
-                  className="no-underline text-3xl text-gray-500 hover:text-gray600"
+                  className="no-underline text-3xl text-white hover:text-gray-300"
                 >
                   仮タイトル
                 </Link>
@@ -88,7 +88,7 @@ export default function RootLayout({
               <p className="pt-11 pr-7">
                 <Link
                   href="/description"
-                  className="no-underline text-3xl text-gray-500 hover:text-gray600"
+                  className="no-underline text-3xl text-white hover:text-gray-300"
                 >
                   仮タイトル
                 </Link>
@@ -99,7 +99,7 @@ export default function RootLayout({
               <p className="pt-11 pr-7">
                 <Link
                   href="/description"
-                  className="no-underline text-3xl text-gray-500 hover:text-gray600"
+                  className="no-underline text-3xl text-white hover:text-gray-300"
                 >
                   仮タイトル
                 </Link>
@@ -110,14 +110,14 @@ export default function RootLayout({
               <p className="pt-11 pr-24">
                 <Link
                   href="/description"
-                  className="no-underline text-3xl text-gray-500 hover:text-gray-600"
+                  className="no-underline text-3xl text-white hover:text-gray-300"
                 >
                   仮タイトル
                 </Link>
               </p>
             </div>
           </div>
-          <p className="text-center text-2xl mt-5 py-12 text-gray-600 font-zenmaru font-black">
+          <p className="text-center text-2xl mt-5 py-12 text-white font-zenmaru font-black">
             Copyright © 2023 TABA CORPORATION. All Rights Reserved.
           </p>
         </footer>
