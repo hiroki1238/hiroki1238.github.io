@@ -20,13 +20,13 @@ export default function RootLayout({
       <body>
         <section className="font-kosugimaru">
           {/* フォント指定 */}
-          <header className="bg-white h-10 pb-32">
+          <header className="bg-gray-150 h-10 pb-32">
             <nav className="pt-12 flex">
               <Link
                 href="/"
                 className="mr-6 no-underline text-2xl text-gray-500 hover:text-gray600"
               >
-                株式会社たば（ロゴを設置）
+              <img src="./image/logo-kokutetsu.png" className="w-64 h-auto ml-5" /> {/* フォントカラーは#0b81a8 */}
               </Link>
 
               <div className="ml-auto">
@@ -38,7 +38,7 @@ export default function RootLayout({
                 </Link>
 
                 <Link
-                  href="/"
+                  href="/service"
                   className="mr-6 no-underline text-2xl text-gray-500 hover:text-gray600"
                 >
                   サービス
@@ -59,7 +59,7 @@ export default function RootLayout({
                 </Link>
 
                 <Link
-                  href="/"
+                  href="/recruit"
                   className="mr-16 no-underline text-2xl text-gray-500 hover:text-gray600"
                 >
                   採用情報
