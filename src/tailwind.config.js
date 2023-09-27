@@ -36,6 +36,7 @@ module.exports = {
 
              aspectRatio: {
               'slideshow': '7/5',
+              'newsimg': '8/5',
               'service': '7/5',
             },
     },
